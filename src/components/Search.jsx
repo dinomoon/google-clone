@@ -10,7 +10,7 @@ export const Search = () => {
 
   useEffect(() => {
     if (debouncedValue) setSearchTerm(debouncedValue);
-  }, [debouncedValue]);
+  }, [debouncedValue, setSearchTerm]);
 
   return (
     <div className="relative sm:ml-48 md:ml-72 sm:-mt-10 mt-3">
@@ -21,13 +21,13 @@ export const Search = () => {
         placeholder="Search Goggl or type URL"
         onChange={(e) => setText(e.target.value)}
       />
-      {!text && (
+      {text !== '' && (
         <button
           type="button"
           className="absolute top-1.5 right-4 text-2xl text-gray-500"
           onClick={() => setText('')}
         >
-          X
+          &times;
         </button>
       )}
       <Links />
