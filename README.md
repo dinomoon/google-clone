@@ -1,6 +1,14 @@
 # Google Clone
 
+[Thanks to JavaScript Mastery](https://www.youtube.com/watch?v=NDbruK1fzG8)
+
+<br>
+
 ## 🔗 Demo
+
+https://google-clone-with-jsm.netlify.app/search
+
+<br>
 
 ## 💻 Preview
 
