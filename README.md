@@ -72,4 +72,4 @@ https://google-clone-with-jsm.netlify.app/
 
 ## 📄 Program Diagram
 
-![image](https://user-images.githubusercontent.com/42693257/138035534-dfd0d170-113b-4b33-89cd-925d9b0741a9.png)
+![image](https://user-images.githubusercontent.com/42693257/138043054-73f80acd-9176-43b5-bf9e-eca3bc3e0d33.png)
